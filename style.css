@@ -49,11 +49,25 @@ a{
 }
 .content li{
     margin-top: 10px;
+    color:  rgb(0, 195, 255);
+    font-size: 1.2rem;    
+}
+.content li a{
+    color: #cad5e0;
+    text-decoration: underline;
 }
 .content ul{
     margin-top: 50px;
 }
 @media (max-width:500px) {
+    .main{
+        padding: 0;
+    }
+    .content{
+        width: 90%;
+        margin-inline: auto;
+        padding: 0;
+    }
     .content h1{
         font-size: 2rem;
     }
@@ -61,6 +75,6 @@ a{
         font-size: 1rem;
     }
     .content li{
-        font-size: .8rem;
+        font-size: 1rem;
     }
 }
