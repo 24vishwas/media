@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.main{
+    height: 100vh;
+    min-height: 600px;
+    max-height: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-image:
+    linear-gradient(to right, #000000c8, #1f025ebb),
+                      url('./pexels-markusspiske-177598.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10%;
+    /* position: relative; */
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    color: rgb(194, 204, 244);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    color: #cad5e0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-align: center; */
+}
+.content h1{
+    font-size: 3rem;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+}
+.content h1 span{
+    color: rgb(0, 195, 255);
+}
+.content li{
+    margin-top: 10px;
+}
+.content ul{
+    margin-top: 50px;
+}
+@media (max-width:500px) {
+    .content h1{
+        font-size: 2rem;
+    }
+    .content h2{
+        font-size: 1rem;
+    }
+    .content li{
+        font-size: .8rem;
+    }
+}
