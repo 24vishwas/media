@@ -13,18 +13,18 @@ a{
 
 .main{
     height: 100vh;
-    min-height: 600px;
+    /* min-height: 600px; */
     /* max-height: 1500px; */
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     background-image:
     linear-gradient(to right, #000000c8, #1f025ebb),
-                      url('./pexels-markusspiske-177598.webp');
+                      url('./space.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 10%;
+    /* padding-left: 10%; */
     /* position: relative; */
 }
 .logo{
@@ -34,10 +34,26 @@ a{
     color: rgb(194, 204, 244);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.img-wrapper{
+    width: 50%;
+    height: 200px;
+    margin-inline: auto;
+    /* object-fit: cover; */
+    /* object-position: center; */
+}
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 .content{
     color: #cad5e0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* text-align: center; */
+    text-align: center;
+    width: 60%;
+    margin-inline: auto;
 }
 .content h1{
     font-size: 3rem;
@@ -50,7 +66,7 @@ a{
 .content li{
     margin-top: 10px;
     color:  rgb(0, 195, 255);
-    font-size: 1.2rem;    
+    /* font-size: 1.2rem;     */
 }
 .content li a{
     color: #cad5e0;
@@ -58,6 +74,11 @@ a{
 }
 .content ul{
     margin-top: 50px;
+}
+@media (max-width:992px) {
+    .content{
+        width: 85%;
+    }
 }
 @media (max-width:500px) {
     .main{
@@ -75,6 +96,26 @@ a{
         font-size: 1rem;
     }
     .content li{
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form input{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    height: 40px;    
+}
+.form button{
+    border: none;
+    height: 60px;
+    padding: 10px 30px;
+    background-color: rgb(55, 5, 203);
+    color: white;
+    font-size: 20px;
 }
