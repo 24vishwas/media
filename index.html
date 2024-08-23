@@ -21,8 +21,10 @@
             </h1>
             <p>Our website is under construction, but we are ready to go! Special surprise for our subscribers only</p>
             <h2>Notify Me When It's Ready</h2>
-            <form action="#" class="form">
-              <input type="email" placeholder=" Enter your email address">
+            <form action="https://api.web3forms.com/submit" method="POST" class="form">
+              <input type="hidden" name="access_key" value="ef330d07-5aad-4339-a053-f5f9b9e0875f">
+              <input type="email" name="email" required placeholder=" Enter your email address">
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
               <button type="submit">Notify Me</button>
             </form>
             <ul>
