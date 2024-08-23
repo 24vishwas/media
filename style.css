@@ -95,8 +95,8 @@ a{
     .content h2{
         font-size: 1rem;
     }
-    .content li{
-        /* font-size: 1rem; */
+    .img-wrapper{
+        width: 100%;
     }
 }
 .form{
