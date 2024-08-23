@@ -12,8 +12,8 @@ a{
 }
 
 .main{
-    height: 100vh;
-    /* min-height: 600px; */
+    /* height: 100vh; */
+    min-height:100vh;
     /* max-height: 1500px; */
     display: flex;
     align-items: center;
