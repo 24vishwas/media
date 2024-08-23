@@ -19,11 +19,8 @@ a{
     align-items: center;
     justify-content: center;
     background-image:
-    linear-gradient(to right, #000000c8, #5e020285),
-                      url('./bg1.jpg');
-    /* background-image:
     linear-gradient(to right, #000000c8, #1f025ebb),
-                      url('./space2.jpg'); */
+                      url('./space2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,12 +61,11 @@ a{
     letter-spacing: 10px;
 }
 .content h1 span{
-    /* color: rgb(0, 195, 255); */
-    color: rgb(238, 122, 6);
+    color: rgb(0, 195, 255);
 }
 .content li{
     margin-top: 10px;
-    color: rgb(238, 122, 6);
+    color:  rgb(0, 195, 255);
     /* font-size: 1.2rem;     */
 }
 .content li a{
@@ -119,8 +115,7 @@ a{
     border: none;
     height: 60px;
     padding: 10px 30px;
-    background-color: rgb(238, 122, 6);
-    /* background-color: rgb(55, 5, 203); */
+    background-color: rgb(55, 5, 203);
     color: white;
     font-size: 20px;
 }
